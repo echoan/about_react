@@ -1,0 +1,11 @@
+.title{
+    font-size:16px;
+    text-align:center;
+    font-weight:200;
+}
+/*css模块化处理只能够处理类选择器和id选择器，对于标签是无效的*/
+
+/*通过local和global来设置类名是否被模块化,默认是所有类名和id都是local，可以被模块化，而设置了global后，则不会被模块化，会全局生效*/
+:global(.test){
+    font-style: italic;
+}
