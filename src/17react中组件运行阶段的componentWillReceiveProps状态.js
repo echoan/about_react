@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-import Context from '@/components/Context'
+import CounterFive from '@/components/CounterFive'
 
 ReactDom.render(<div>
-    <Context></Context>
+    <CounterFive></CounterFive>
 </div>,document.getElementById('app'))

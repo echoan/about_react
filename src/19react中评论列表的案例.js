@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-import Context from '@/components/Context'
+import PList from '@/components/PList'
 
 ReactDom.render(<div>
-    <Context></Context>
+    <PList></PList>
 </div>,document.getElementById('app'))

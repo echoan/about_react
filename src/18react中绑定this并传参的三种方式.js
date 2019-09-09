@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-import Context from '@/components/Context'
+import CounterSix from '@/components/CounterSix'
 
 ReactDom.render(<div>
-    <Context></Context>
+    <CounterSix></CounterSix>
 </div>,document.getElementById('app'))
